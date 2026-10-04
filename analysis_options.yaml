@@ -1,0 +1,6 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    # Allow (_, __) pattern in CachedNetworkImage / widget builder callbacks.
+    unnecessary_underscores: false
